@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+
+/* IBM Plex sans */
+
+.ibm-plex-sans-normal {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.ibm-plex-sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* manrope */
+
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.manrope-regular {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semibold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.manrope-xbold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inner-shadow-text {
+  color: transparent;
+  font: extrabold 60px Manrope, sans-serif;
+  text-shadow: 0px 3px 4px rgba(203, 251, 255, 0.4); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: #01b7c1;
+}
+.inner-shadow-text-dai {
+  color: transparent;
+  font: extrabold 60px Manrope, sans-serif;
+  text-shadow: 0px 3px 6px rgba(60, 60, 60, 0.4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: #ffffff;
+}
+
+.inner-shadow-text-service {
+  color: transparent;
+  font: extrabold 60px Manrope, sans-serif;
+  text-shadow: 0px 3px 4px rgba(241, 179, 185, 0.4); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: #E46356;
+}
+.inner-shadow-text-partnership {
+  color: transparent;
+  font: extrabold 60px Manrope, sans-serif;
+  text-shadow: 0px 3px 4px rgba(237, 179, 241, 0.4); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: #b05da8
+;
+}
