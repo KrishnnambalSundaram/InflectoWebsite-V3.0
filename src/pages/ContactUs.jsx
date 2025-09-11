@@ -3,6 +3,8 @@ import ContactUsBg from '../assets/contactUs/contact-us.svg'
 import GetInTouch from '../components/contactUs/GetInTouch'
 import ContactUsEmail from '../components/contactUs/ContactUsEmail'
 import ContactLocation from '../components/contactUs/ContactLocation'
+import { WordsPullUp } from '../animations/WordsPullUp'
+import { TextFade } from '../animations/TextFade'
 
 const ContactUs = () => {
   return (
@@ -15,14 +17,22 @@ const ContactUs = () => {
           
           {/* Title */}
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl manrope-xbold leading-snug">
-            Open the Door to{" "}
-            <span className="inner-shadow-text-partnership">New</span> Possibilities
+            <WordsPullUp
+              text={"Open the Door to New Possibilities"}
+              specialWords={["New"]}
+              theme="inner-shadow-text-partnership"
+            />
           </p>
           
           {/* Subtitle */}
+          <TextFade
+            direction="up"
+            className="pt-0 pb-5 flex-col flex space-y-4"
+          >
           <p className="mt-3 md:mt-5 text-base sm:text-lg md:text-xl ibm-plex-sans-normal max-w-2xl">
             Whether you have a question, a project, or just want to say hello — we're ready to connect.
           </p>
+          </TextFade>
         </div>
       </div>
       <GetInTouch/>

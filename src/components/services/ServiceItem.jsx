@@ -10,7 +10,6 @@ const ServicePoint = ({point})=>{
   setDesc(spl[1])
   },[point])
   
-  console.log(spl)
   return (
     <h1 className="ibm-plex-sans-normal"><span className="ibm-plex-sans-semibold">{heading}</span> - {desc}</h1>
   )

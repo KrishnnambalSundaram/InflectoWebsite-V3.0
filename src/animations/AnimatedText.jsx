@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useInView } from "framer-motion";
@@ -8,8 +8,15 @@ gsap.registerPlugin(SplitText);
 
 const LineFadeText = ({ children, className = "", once = true }) => {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once, margin: "-100px" }); 
   // margin lets you trigger earlier/later
+  const [isAnimateOnce,setIsAnimateOnce] = useState(false)
+    useEffect(()=>{
+      setTimeout(() => {
+      setIsAnimateOnce(true)
+        
+      }, 800);
+    },[])
+  const isInView = useInView(containerRef, { isAnimateOnce, margin: "-100px" }); 
 
   useEffect(() => {
     if (!containerRef.current || !isInView) return;
@@ -32,7 +39,7 @@ const LineFadeText = ({ children, className = "", once = true }) => {
     );
 
     return () => {
-      split.revert(); // clean up SplitText
+      split.revert();
     };
   }, [isInView]);
 

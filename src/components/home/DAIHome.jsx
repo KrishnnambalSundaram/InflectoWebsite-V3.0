@@ -2,6 +2,7 @@ import React from "react";
 import DAIHomeGif from "../../assets/home/home-dai.gif";
 import { Link } from "react-router-dom";
 import { TextFade } from "../../animations/TextFade";
+import AnimatedImage from "../../animations/AnimatedImage";
 
 const DAIHome = () => {
   return (
@@ -27,7 +28,7 @@ const DAIHome = () => {
 
       {/* Right GIF */}
       <div className="flex-1 relative w-full h-[250px] md:h-auto flex items-center justify-center">
-        <img
+        <AnimatedImage
           src={DAIHomeGif}
           alt="Demo GIF"
           className="w-4/5 sm:w-2/3 md:w-3/4 lg:w-[500px] xl:w-[570px] max-w-full h-auto"

@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     // create Lenis only once
     const lenis = new Lenis({
-      duration: 0.15,
+      duration: 1.3,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
     });

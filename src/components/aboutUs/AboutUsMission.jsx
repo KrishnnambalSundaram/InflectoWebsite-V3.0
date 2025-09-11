@@ -3,6 +3,7 @@ import TreeImage from "../../assets/aboutUs/about-us-tree.svg";
 import Bullet from "../../assets/utility/icons/bullet.svg"; 
 import { HiChevronDoubleDown } from "react-icons/hi";
 import { TextFade } from "../../animations/TextFade";
+import AnimatedImage from "../../animations/AnimatedImage";
 
 const AboutUsMission = () => {
   return (
@@ -85,7 +86,7 @@ const AboutUsMission = () => {
 
       {/* Right: Tree Image */}
       <div className="flex-1 flex justify-center">
-        <img
+        <AnimatedImage
           src={TreeImage}
           alt="Tree illustration"
           className="w-[70%] md:w-[80%] max-w-md"

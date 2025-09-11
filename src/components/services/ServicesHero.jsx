@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../../assets/services/services-hero-bg.svg";
 import HeroVideo from "../../assets/services/service-wave.mp4";
+import { WordsPullUp } from "../../animations/WordsPullUp";
 
 const ServicesHero = () => {
   return (
@@ -36,11 +37,13 @@ const ServicesHero = () => {
         {/* Left Side - Text */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl lg:text-6xl leading-snug manrope-xbold overflow-hidden">
-            <span className="inner-shadow-text-service overflow-hidden">End-To-End</span>{" "}
-            <span className="text-[#1D1D1D]">Services For</span>
-            <br />
-            <span className="text-[#1D1D1D]">Your Digital Journey</span>
-          </h1>
+          <WordsPullUp
+            text={`End-To-End Services For\nYour Digital Journey`}
+            specialWords={["End-To-End"]}
+            theme="inner-shadow-text-service"
+          />
+        </h1>
+
         </div>
       </div>
     </section>

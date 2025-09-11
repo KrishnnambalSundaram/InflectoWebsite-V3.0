@@ -3,6 +3,7 @@ import heroImg from "../../assets/utility/mp4/Orb.mp4";
 import LogoMarquee from "./LogoMarqee";
 import { useNavigate } from "react-router-dom";
 import { TextFade } from "../../animations/TextFade";
+import { WordsPullUp } from "../../animations/WordsPullUp";
 const HeroHome = () => {
   const navigate = useNavigate();
   const handleContact = () =>{
@@ -13,20 +14,21 @@ const HeroHome = () => {
       
       {/* Left Content */}
       <div className="flex-1 flex flex-col justify-center text-center lg:text-left lg:pr-8">
+        
+          <h1 className="text-[#252525] text-4xl sm:text-[44px] md:text-[54px] lg:text-[64px] xl:text-[64px] manrope-xbold leading-tight">
+            <WordsPullUp
+              text={"Unlock The Power Of AI\nFor Your Business"}
+              specialWords={["Power", "Of", "AI"]}
+              theme="inner-shadow-text"
+              className="text-[#252525]"
+            />
+          </h1>
+
         <TextFade
           direction="up"
           className="pt-0 pb-5 flex-col flex space-y-0"
           isOnce={true}
         >
-          <h1 className="text-[#252525] text-4xl sm:text-[44px] md:text-[54px] lg:text-[64px] xl:text-[64px] manrope-xbold leading-tight">
-              Unlock The{" "}
-              <span className="text-[#70CBCF] inner-shadow-text">
-                Power Of AI
-              </span>
-              <br />
-              For Your Business
-          </h1>
-
           <p className="mt-2 text-[#252525] ibm-plex-sans-normal text-md md:text-md lg:text-xl max-w-md sm:max-w-lg md:max-w-xl mx-auto lg:mx-0">
             Guiding you toward self-expression and confidence with every choice
           </p>

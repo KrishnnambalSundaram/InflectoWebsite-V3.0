@@ -6,7 +6,7 @@ import Hcl from "../../assets/utility/companyLogos/hcl.svg";
 import Informatica from "../../assets/utility/companyLogos/informatica.svg";
 import Joget from "../../assets/utility/companyLogos/joget.svg";
 import Mendix from "../../assets/utility/companyLogos/mendix.svg";
-import OutSystems from "../../assets/utility/companyLogos/outsystems.svg";
+import Axxel from "../../assets/utility/companyLogos/axxel.svg";
 import Unifyapps from "../../assets/utility/companyLogos/unifyapps.svg";
 import Zoho from "../../assets/utility/companyLogos/zoho.svg";
 import Bullet from "../../assets/utility/icons/bullet.svg"
@@ -19,6 +19,7 @@ const partnershipsData = [
     description:
       "Strategic and Technology partnerships at Inflecto fuel innovation — unlocking new opportunities, driving co-creation, and delivering faster, smarter, and scalable outcomes for our clients. \n We are committed to building trusted, future-ready alliances that:",
     logos: [,
+      { name: "Axxel Tehnologies", img: Axxel },
       { name: "Unifyapps", img: Unifyapps },
       { name: "Zoho Creator", img: Zoho },
     ],

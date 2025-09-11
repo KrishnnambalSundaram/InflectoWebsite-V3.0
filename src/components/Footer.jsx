@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   const resourcesLinks = [
-    { label: "Blog", to: "/blog" },
+    { label: "Blog", to: "/comingsoon" },
     { label: "Case Studies", to: "/comingsoon" },
     { label: "Free eBooks", to: "/comingsoon" },
     { label: "Development Tutorial", to: "/comingsoon" },

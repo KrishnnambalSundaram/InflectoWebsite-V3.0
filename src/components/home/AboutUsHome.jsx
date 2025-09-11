@@ -4,6 +4,7 @@ import HomeAboutBackgorund from "../../assets/home/home-aboutus-background.svg";
 import InflectoIcon from "../../assets/inflecto/inflecto-icon.svg"
 import { Link } from "react-router-dom";
 import { TextFade } from "../../animations/TextFade";
+import AnimatedImage from "../../animations/AnimatedImage";
 const AboutUsHome = () => {
     const [clicked,setClicked] = useState(false);
   return (
@@ -15,7 +16,7 @@ const AboutUsHome = () => {
       <section className="relative w-[90%] md:w-[500px] lg:w-[500px] xl:w-[550px]
             rounded-4xl mt-5 lg:mt-0 overflow-hidden group mx-auto">
         {/* Background Image */}
-        <img
+        <AnimatedImage
             onClick={() => setClicked(!clicked)}
             src={AboutUsImage}
             alt="Team working"

@@ -3,15 +3,20 @@ import DAIBackground from '../assets/dai/dai-background.png'
 import DAIOfferings from '../components/daiLabs/DAIOfferings'
 import sampleVideo from '../assets/dai/aurora-bg.mp4'
 import LineFadeText from '../animations/AnimatedText'
+import { WordsPullUp } from '../animations/WordsPullUp'
 
 const DAILabs = () => {
   return (
     <div className="flex flex-col relative">
       {/* Background image */}
-      <div className='relative flex items-center'>
+      <div className='relative flex items-center max-h-[calc(100vh-120px)]'>
         <h1 className="z-20 absolute manrope-xbold text-3xl md:text-5xl/14 lg:text-6xl/17 max-w-1/2 px-5 md:px-15">
-          Unleashing <span className="inner-shadow-text-dai">Innovation</span> with <br /> DAI Labs
-        </h1>
+        <WordsPullUp
+          text={"Unleashing Innovation with\nDAI Labs"}
+          specialWords={["Innovation"]}
+          theme="inner-shadow-text-dai"
+        />
+      </h1>
         <img 
           src={DAIBackground} 
           alt="background" 
@@ -29,7 +34,7 @@ const DAILabs = () => {
         />
       </div>
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-50 bg-white">
        <LineFadeText className="max-w-6xl mx-auto px-10 md:px-15 lg:px-25 py-20 text-lg ibm-ples-sans-normal">
           <p>
             At <span className="text-[#E46356]">DAI Labs</span>, we empower organizations to move faster 
