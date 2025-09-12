@@ -32,7 +32,7 @@ const Partnerships = () => {
         <div className="relative flex items-center px-10 md:px-20 w-7/12 z-10">
           <p className="text-4xl md:text-5xl/18 lg:text-6xl/18 manrope-xbold">
             <WordsPullUp
-              text={"Together, we build the future"}
+              text={"Together, We Build The Future"}
               specialWords={["Together,"]}
               theme="inner-shadow-text-partnership"
             />

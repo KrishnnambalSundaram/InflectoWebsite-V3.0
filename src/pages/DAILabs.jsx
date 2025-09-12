@@ -12,7 +12,7 @@ const DAILabs = () => {
       <div className='relative flex items-center max-h-[calc(100vh-120px)]'>
         <h1 className="z-20 absolute manrope-xbold text-3xl md:text-5xl/14 lg:text-6xl/17 max-w-1/2 px-5 md:px-15">
         <WordsPullUp
-          text={"Unleashing Innovation with\nDAI Labs"}
+          text={"Unleashing Innovation With\nDAI Labs"}
           specialWords={["Innovation"]}
           theme="inner-shadow-text-dai"
         />

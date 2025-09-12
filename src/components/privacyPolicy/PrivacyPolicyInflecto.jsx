@@ -245,7 +245,7 @@ secure. While We strive to use commercially acceptable means to protect Your Per
       <p className="ibm-plex-sans-normal">
         If you have any questions about this Privacy Policy, You can contact us:
         <br/><span className="block mb-4" />
-        <span className="text-[#E46356]">By email:</span> info@northcapconsulting.com
+        <span className="text-[#E46356]">By email:</span> people@inflectotechnologies.com
         <br/><span className="block mb-4" />
         By visiting this page on our website: <a href="https://inflectotechnologies.com/contactus" target="_blank" rel="noopener noreferrer" className="text-blue-600">https://inflectotechnologies.com/contact-us</a>
         

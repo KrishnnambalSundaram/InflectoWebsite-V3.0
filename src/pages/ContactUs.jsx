@@ -18,7 +18,7 @@ const ContactUs = () => {
           {/* Title */}
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl manrope-xbold leading-snug">
             <WordsPullUp
-              text={"Open the Door to New Possibilities"}
+              text={"Open The Door To New Possibilities"}
               specialWords={["New"]}
               theme="inner-shadow-text-partnership"
             />
