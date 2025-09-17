@@ -27,12 +27,12 @@ const AboutUsMission = () => {
                 className="pt-0 pb-5 flex-col flex space-y-4"
                   >
                 <li className="flex gap-3 items-start">
-                <img src={Bullet} alt='bullet' className="text-lg w-7"></img>
+                {/* <img src={Bullet} alt='bullet' className="text-lg w-7"></img> */}
                 <p className="text-gray-700">
-                    Innovate scalable, industry-agnostic digital and AI products.
+                    Build secure hybrid labs that combines AI, data, and low-code with human ingenuity—enabling rapid deployment, seamless orchestration, and intelligent automation to transform customer agility and business outcomes.
                 </p>
                 </li>
-                <li className="flex gap-3 items-start">
+                {/* <li className="flex gap-3 items-start">
                 <img src={Bullet} alt='bullet' className="text-lg w-7"></img>
                 <p className="text-gray-700">
                     Empower organizations with plug-and-play AI solutions and flex
@@ -50,7 +50,7 @@ const AboutUsMission = () => {
                 <p className="text-gray-700">
                     Cultivate a future-ready, decentralized workforce model
                 </p>
-                </li>
+                </li> */}
                 </TextFade>
             </ul>
             </div>
@@ -72,12 +72,12 @@ const AboutUsMission = () => {
                 <h2 className="text-2xl font-bold text-[#4B371C] mb-5">Our Vision</h2>
                 <TextFade
                   direction="up"
-                  className="pt-0 pb-5 flex-col flex space-y-4"
+                  className="pt-0 pb-5 flex-row flex space-y-4"
                   >
-                  <p className="text-gray-700 leading-relaxed">
-                      To solve complex societal and business challenges through
-                      transformative Digital & Artificial Intelligence (Intelligent
-                      Automation powered by AI).
+                                    {/* <img src={Bullet} alt='bullet' className="text-lg w-7"></img> */}
+
+                  <p className="text-gray-700 ml-3 leading-relaxed">
+                      Transforming challenges into opportunities through AI-powered intelligent automation.
                   </p>
                 </TextFade>
             </div>
