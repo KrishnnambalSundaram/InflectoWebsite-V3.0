@@ -14,7 +14,7 @@ const HeroHome = () => {
   
     {/* Left Content */}
       <div className="flex-1 flex-col justify-center text-center lg:text-left">
-        <h1 className="text-[#252525] text-3xl md:text-6xl manrope-xbold leading-tight">
+        <h1 className="text-[#252525] text-4xl sm:text-[44px] md:text-[54px] lg:text-[64px] manrope-xbold leading-tight">
           <WordsPullUp
             text={"Unlock The Power Of AI\nFor Your Business"}
             specialWords={["Power", "Of", "AI"]}
