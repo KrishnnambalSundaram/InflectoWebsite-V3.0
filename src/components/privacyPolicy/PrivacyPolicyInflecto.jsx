@@ -241,7 +241,7 @@ secure. While We strive to use commercially acceptable means to protect Your Per
         You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
         </p>
 
-      {/* Contact */}
+      {/* Contact */} 
       <h2 className="text-3xl md:text-4xl manrope-bold mb-6 text-[#4B371C] mt-12">Contact Us</h2>
       <p className="ibm-plex-sans-normal">
         If you have any questions about this Privacy Policy, You can contact us:
