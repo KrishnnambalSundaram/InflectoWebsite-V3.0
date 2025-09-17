@@ -22,7 +22,7 @@ export function WordsPullUp({ text, className = "", specialWords = [], theme="" 
       {lines.map((line, lineIndex) => {
         const words = line.split(" ");
         return (
-          <div key={lineIndex} className="flex flex-wrap justify-start">
+          <div key={lineIndex} className="flex flex-wrap justify-center md:justify-start">
             {words.map((word, i) => (
               <motion.span
                 key={i}

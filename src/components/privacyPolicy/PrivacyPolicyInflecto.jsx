@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicyInflecto = () => {
   return (
@@ -6,7 +7,7 @@ const PrivacyPolicyInflecto = () => {
       {/* Title */}
       {/* Introduction */}
       <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mb-6">Introduction</h2>
-      <p className="ibm-plex-sans-normal mb-6">
+      <p className="ibm-plex-sans-normal mb-12">
         <p className="ibm-plex-sans-normal mb-6">
             Welcome to inflectotechnologies.com. <br />
             <span className="block mb-4" />
@@ -20,18 +21,18 @@ const PrivacyPolicyInflecto = () => {
       </p>
 
       {/* Interpretation and Definitions */}
-      <h2 className="text-3xl md:text-4xl manrope-bold  mb-3 text-[#4B371C]">Interpretation and Definitions Interpretation</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold mt-6 mb-6 text-[#4B371C]">Interpretation and Definitions Interpretation</h2>
       <p className="ibm-plex-sans-normal mb-4">
             The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.      
         </p>
 
-      <h3 className="text-3xl md:text-4xl manrope-bold  mb-2 text-[#4B371C]">Definitions</h3>
+      <h3 className="text-3xl md:text-4xl manrope-bold  mb-2 text-[#4B371C] mt-12 mb-6">Definitions</h3>
       <h3 className="text-md manrope-bold  mb-2">For the purposes of this Privacy Policy:</h3>
 
       <ul className="list-none list-inside ibm-plex-sans-normal mb-6 space-y-4">
         <li><span className="text-[#E46356]">Account</span> means a unique account created for You to access our Service or parts of our Service.</li>
         <li><span className="text-[#E46356]">Affiliate</span> means an entity that controls, is controlled by or is under common control with a party, where “control” means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
-        <li><span className="text-[#E46356]">Company</span> means (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Axxel Technologies, #402, Frisco, TX – 75034, John Hickman Parkway, Texas: 8668.</li>
+        <li><span className="text-[#E46356]">Company</span> means (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Inflecto Technologies, #402, Frisco, TX – 75034, John Hickman Parkway, Texas: 8668.</li>
         <li><span className="text-[#E46356]">Cookies</span> means are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
         <li><span className="text-[#E46356]">Country</span> refers to: Texas, United States.</li>
         <li><span className="text-[#E46356]">Device</span> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
@@ -45,7 +46,7 @@ const PrivacyPolicyInflecto = () => {
       </ul>
 
       {/* Collecting and Using Data */}
-      <h2 className="text-3xl md:text-4xl manrope-bold text-[#4B371C] mb-3">Collecting and Using Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold text-[#4B371C] mb-6 mt-12 ">Collecting and Using Your Personal Data</h2>
       <h3 className="text-lg manrope-bold mb-2">Types of Data Collected</h3>
 
       <h4 className="text-base manrope-bold mb-1">Personal Data</h4>
@@ -128,7 +129,7 @@ const PrivacyPolicyInflecto = () => {
       </p>
 
       {/* Use of Data */}
-      <h2 className="text-3xl md:text-4xl manrope-bold mb-3 mt-10 text-[#4B371C]">Use of Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold mb-6 mt-12 text-[#4B371C]">Use of Your Personal Data</h2>
       <p className="ibm-plex-sans-normal mb-4">The Company may use Personal Data for the following purposes:</p>
       <ul className="list-none list-inside ibm-plex-sans-normal mb-6 space-y-4">
         <li><span className="text-[#E46356]">To provide and maintain our Service,</span> including to monitor the usage of our Service.</li>
@@ -147,16 +148,16 @@ const PrivacyPolicyInflecto = () => {
             <li><span className="text-[#E46356]">With Affiliates:</span> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
             <li><span className="text-[#E46356]">With business partners:</span> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
             <li><span className="text-[#E46356]">With other users:</span> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users
-and may be publicly distributed outside. If You interact with other users or register through a Third Party Social Media Service, Your contacts on the Third
-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your
-activity, communicate with You and view Your profile.</li>
+                and may be publicly distributed outside. If You interact with other users or register through a Third Party Social Media Service, Your contacts on the Third
+                Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your
+                activity, communicate with You and view Your profile.</li>
             <li><span className="text-[#E46356]">With Your consent:</span> We may disclose Your personal information for any other purpose with Your consent.</li>
         </ul>
 
 
     <br/>
       {/* Retention */}
-      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mb-3">Retention of Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mt-2 mb-6">Retention of Your Personal Data</h2>
       <p className="ibm-plex-sans-normal mb-6">
         The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
         <br/><span className="block mb-4" />
@@ -164,7 +165,7 @@ activity, communicate with You and view Your profile.</li>
       </p>
 
       {/* Transfer */}
-      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mb-3">Transfer of Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mt-12 mb-6">Transfer of Your Personal Data</h2>
       <p className="ibm-plex-sans-normal mb-6">
         Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
             <br/><span className="block mb-4" />
@@ -174,7 +175,7 @@ activity, communicate with You and view Your profile.</li>
       </p>
 
       {/* Delete */}
-      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mb-3">Delete Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mt-12 mb-6">Delete Your Personal Data</h2>
       <p className="ibm-plex-sans-normal mb-6">
         You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
         <br/><span className="block mb-4" />
@@ -186,7 +187,7 @@ activity, communicate with You and view Your profile.</li>
       </p>
 
       {/* Disclosure */}
-      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mb-3">Disclosure of Your Personal Data</h2>
+      <h2 className="text-3xl md:text-4xl text-[#4B371C] manrope-bold mt-12 mb-6">Disclosure of Your Personal Data</h2>
       <p className="ibm-plex-sans-normal mb-6">
         <span className="text-[#E46356] manrope-bold">Business Transactions</span>
         <br/><span className="block mb-4" />
@@ -214,7 +215,7 @@ secure. While We strive to use commercially acceptable means to protect Your Per
         </p>
 
       {/* Children */}
-      <h2 className="text-3xl md:text-4xl manrope-bold text-[#4B371C] mb-3">Children’s Privacy</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold text-[#4B371C] mt-12 mb-6">Children’s Privacy</h2>
       <p className="ibm-plex-sans-normal mb-6">
         Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
         <br/><span className="block mb-4" />
@@ -223,7 +224,7 @@ secure. While We strive to use commercially acceptable means to protect Your Per
       </p>
 
       {/* Links */}
-      <h2 className="text-3xl md:text-4xl manrope-bold mb-3 text-[#4B371C]">Links to Other Websites</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold mb-6 text-[#4B371C] mt-12">Links to Other Websites</h2>
       <p className="ibm-plex-sans-normal mb-6">
         Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party’s site. We strongly advise You to review the Privacy Policy of every site You visit.
         <br/><span className="block mb-4" />
@@ -231,7 +232,7 @@ secure. While We strive to use commercially acceptable means to protect Your Per
       </p>
 
       {/* Changes */}
-      <h2 className="text-3xl md:text-4xl manrope-bold mb-3 text-[#4B371C]">Changes to this Privacy Policy</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold mb-6 text-[#4B371C] mt-12">Changes to this Privacy Policy</h2>
       <p className="ibm-plex-sans-normal mb-6">
         We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
         <br/><span className="block mb-4" />
@@ -241,13 +242,13 @@ secure. While We strive to use commercially acceptable means to protect Your Per
         </p>
 
       {/* Contact */}
-      <h2 className="text-3xl md:text-4xl manrope-bold mb-3 text-[#4B371C]">Contact Us</h2>
+      <h2 className="text-3xl md:text-4xl manrope-bold mb-6 text-[#4B371C] mt-12">Contact Us</h2>
       <p className="ibm-plex-sans-normal">
         If you have any questions about this Privacy Policy, You can contact us:
         <br/><span className="block mb-4" />
         <span className="text-[#E46356]">By email:</span> people@inflectotechnologies.com
         <br/><span className="block mb-4" />
-        By visiting this page on our website: <a href="https://inflectotechnologies.com/contactus" target="_blank" rel="noopener noreferrer" className="text-blue-600">https://inflectotechnologies.com/contact-us</a>
+        By visiting this page on our website: <Link to="/contact" className="text-blue-600">https://inflectotechnologies.com/contact-us</Link>
         
       </p>
     </div>

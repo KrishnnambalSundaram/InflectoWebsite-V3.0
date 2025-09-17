@@ -1,5 +1,5 @@
 import React from 'react'
-import PrivacyPolicyBg from '../../src/assets/utility/commons/privacy-policy-bg.svg'
+import PrivacyPolicyBg from '../../src/assets/utility/commons/privacy-policy-hero.svg'
 import SecurityLogo from '../../src/assets/utility/commons/security.svg'
 import PrivacyPolicyInflecto from '../components/privacyPolicy/PrivacyPolicyInflecto'
 
@@ -9,7 +9,9 @@ const PrivacyPolicy = () => {
     <div>
         <section
             style={{
-                backgroundImage:`url(${PrivacyPolicyBg})`               
+                backgroundImage:`url(${PrivacyPolicyBg})`,
+                backgroundRepeat:'no-repeat',
+                backgroundSize:'cover'               
             }}
             className="relative flex flex-col justify-center items-center w-full h-[calc(100vh-100px)] text-center px-6 "
         >
@@ -23,7 +25,6 @@ const PrivacyPolicy = () => {
             </p>
             
             </div>
-            <img src={SecurityLogo} alt='coming soon' className='absolute right-0 w-1/3 z-10'/>
         </section>
         <PrivacyPolicyInflecto/>
     </div>

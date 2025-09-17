@@ -50,11 +50,13 @@ const Header = () => {
         }`}
       >
         {/* Logo (switch between GIF and static logo) */}
-        <img
-          src={showGif ? InflectoLogoGif : InflectoLogo}
-          alt="inflecto Logo"
-          className={`${showGif?'w-46':'w-48'} transition-all duration-500 ease-in-out`}
-        />
+        <Link to='/'>
+          <img
+            src={showGif ? InflectoLogoGif : InflectoLogo}
+            alt="inflecto Logo"
+            className={`${showGif?'w-46':'w-48'} transition-all duration-500 ease-in-out`}
+          />
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-6 items-center">

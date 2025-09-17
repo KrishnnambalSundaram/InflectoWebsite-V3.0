@@ -1,15 +1,16 @@
 'use client';
 import { motion, useInView } from 'framer-motion';
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 export function TextFade({
   direction = 'up',
   children,
   className = '',
   staggerChildren = 0.1,
-  isOnce = false,
+  isOnce = true,
   delayStep = 0.2,
 }) {
+  const [isOnceFlag,setIsOnceFlag] = useState(false)
   const FADE_VARIANT = {
     hidden: (i) => ({
       opacity: 0,
@@ -24,10 +25,14 @@ export function TextFade({
       },
     }),
   };
-
+  useEffect(()=>{
+    setTimeout(() => {
+      setIsOnceFlag(true)
+    }, 500);
+  },[])
   const ref = useRef(null);
 
-  const isInView = useInView(ref, { once: isOnce });
+  const isInView = useInView(ref, { once: isOnceFlag });
 
   return (
     <motion.div

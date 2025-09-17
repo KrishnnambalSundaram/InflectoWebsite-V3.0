@@ -11,7 +11,7 @@ const ServicePoint = ({point})=>{
   },[point])
   
   return (
-    <h1 className="ibm-plex-sans-normal"><span className="ibm-plex-sans-semibold">{heading}</span> - {desc}</h1>
+    <h1 className="ibm-plex-sans-normal text-start"><span className="ibm-plex-sans-semibold">{heading}</span> - {desc}</h1>
   )
 }
 const ServiceItem = ({ heading, description, points, image, reverse }) => {

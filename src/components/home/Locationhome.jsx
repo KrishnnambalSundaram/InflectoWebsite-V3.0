@@ -1,19 +1,20 @@
 import React, { useState } from "react";
 import WorldMap from "../../assets/home/world-map-locations.svg";
+import getUnicodeFlagIcon from 'country-flag-icons/unicode'
 
 const locations = [
   {
     id: "usa",
     name: "USA",
     address: "8668 John Hickman Parkway, Suite 402, Frisco, Texas 75034, US",
-    flag: "🇺🇸",
+    flag: "US",
     position: { top: "50%", left: "21%" },
   },
   {
     id: "uae",
     name: "UAE",
     address: "Ernst & Wales Business Center, Fronds Building, M floor, Sheikh Zayed Road, Dubai, UAE",
-    flag: "🇦🇪",
+    flag: "AE",
     position: { top: "57%", left: "63.5%" },
   },
   {
@@ -21,14 +22,14 @@ const locations = [
     name: "Hyderabad, India",
     address:
       "Pardha's Picasa 5th Floor, Durgam Cheruvu Rd, D Block, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081",
-    flag: "🇮🇳",
+    flag: "IN",
     position: { top: "57%", left: "70%" },
   },
   {
     id: "vietnam",
     name: "Vietnam",
     address: "COMING SOON!",
-    flag: "🇻🇳",
+    flag: "VN",
     position: { top: "62%", left: "78%" },
   },
 ];
@@ -67,7 +68,7 @@ const LocationHome = () => {
           {active === loc.id && (
             <div className="absolute left-1/2 -translate-x-1/2 -top-3 translate-y-[-100%] bg-white shadow-xl rounded-xl p-4 w-54 text-sm text-gray-800 z-20">
               <div className="flex items-center mb-2">
-                <span className="mr-2 text-lg">{loc.flag}</span>
+                <span className="mr-2 text-lg">{getUnicodeFlagIcon(loc.flag)}</span>
                 <h4 className="manrope-semibold text-[#4B371C]">{loc.name}</h4>
               </div>
               <p className={`${loc.address.includes("COMING")?"text-red-500 manrope-xbold":"text-black"} text-xs leading-relaxed`}>{loc.address}</p>

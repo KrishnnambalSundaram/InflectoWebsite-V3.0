@@ -20,7 +20,6 @@ const Footer = () => {
 
   const resourcesLinks = [
     { label: "Blog", to: "/comingsoon" },
-    { label: "Case Studies", to: "/comingsoon" },
     { label: "Free eBooks", to: "/comingsoon" },
     { label: "Development Tutorial", to: "/comingsoon" },
   ];
@@ -49,7 +48,7 @@ const Footer = () => {
         <div>
           <img src={InflectoLogo} alt="Inflecto Logo" className="w-36 mb-4" />
           <p className="text-[16px] leading-relaxed max-w-[300px] ibm-plex-sans-normal">
-            Human led Intelligent Orchestration and Automation powered by AI
+            Human-led Intelligent Orchestration and Automation powered by AI
           </p>
 
           {/* Social Icons */}

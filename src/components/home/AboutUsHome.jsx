@@ -10,7 +10,7 @@ const AboutUsHome = () => {
   return (
     <section
       style={{ backgroundImage: `url(${HomeAboutBackgorund})`, backgroundSize:'cover' }}
-      className="py-10 md:py-20 flex bg-cyan-100 flex-col lg:flex-row items-center justify-between px-6 md:px-16 relative overflow-hidden"
+      className="py-10 md:py-20 flex bg-cyan-100 flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-16 relative overflow-hidden"
     >
       {/* Left: Image */}
       <section className="relative w-[90%] md:w-[500px] lg:w-[500px] xl:w-[550px]
@@ -108,7 +108,7 @@ const AboutUsHome = () => {
             direction="up"
             className="pt-0 pb-5 flex-col flex space-y-6"
           >
-        <h2 className="text-3xl sm:text-xl lg:text-5xl manrope-bold text-[#4B371C]">
+        <h2 className="text-3xl lg:text-5xl manrope-bold text-[#4B371C]">
           About Us
         </h2>
         <p className="text-[#202020] mb-4 ibm-plex-sans-normal text-base sm:text-lg leading-relaxed max-w-2xl mx-auto md:mx-0">

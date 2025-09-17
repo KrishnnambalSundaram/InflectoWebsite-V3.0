@@ -40,7 +40,7 @@ const AboutUsLeaders = () => {
       linkedin: "https://www.linkedin.com/in/krishnagorrepati/"
     },
     {
-      name: "Mani Anbalagan",
+      name: "Mani Anbazhagan",
       title: "Chief Digital & AI Officer",
       img: Mani,
       description: "Mani Anbalagan, Founder and Chief Digital & AI Officer at Inflecto, is a distinguished digital transformation and AI leader with more than two decades of global experience in banking, financial services, telecom, healthcare, and technology consulting.\n Renowned for building AI-driven enterprise solutions, low-code platforms, and digital accelerators, Mani has successfully partnered with Fortune 500 companies across America, Asia Pacific, the Middle East, and Europe. He has led organizations of 1000+ professionals, managed P&Ls exceeding USD 50M, and spearheaded M&A-driven growth, customer-centric innovation, and large-scale digital programs. \nAt Inflecto, Mani is driving the firm’s vision as an AI-first IT services company, blending strategy, technology, and innovation to deliver enterprise-wide transformation. His leadership reflects a rare balance of strategic foresight, people-first culture, and deep technical expertise, enabling organizations to thrive in the digital era.",

@@ -6,7 +6,7 @@ import Hcl from "../../assets/utility/companyLogos/hcl.svg";
 import Informatica from "../../assets/utility/companyLogos/informatica.svg";
 import Joget from "../../assets/utility/companyLogos/joget.svg";
 import Mendix from "../../assets/utility/companyLogos/mendix.svg";
-import Axxel from "../../assets/utility/companyLogos/axxel.svg";
+import Axxel from "../../assets/utility/companyLogos/axxel-logo.svg";
 import Unifyapps from "../../assets/utility/companyLogos/unifyapps.svg";
 import Zoho from "../../assets/utility/companyLogos/zoho.svg";
 import Bullet from "../../assets/utility/icons/bullet.svg"
@@ -19,7 +19,7 @@ const partnershipsData = [
     description:
       "Strategic and Technology partnerships at Inflecto fuel innovation — unlocking new opportunities, driving co-creation, and delivering faster, smarter, and scalable outcomes for our clients. \n We are committed to building trusted, future-ready alliances that:",
     logos: [,
-      { name: "Axxel Tehnologies", img: Axxel },
+      { name: "Axxel Technologies", img: Axxel },
       { name: "Unifyapps", img: Unifyapps },
       { name: "Zoho Creator", img: Zoho },
     ],
@@ -33,7 +33,7 @@ const partnershipsData = [
 
 const PartnershipsAll = () => {
   return (
-    <div className="flex flex-col py-15 z-50 bg-white">
+    <div className="flex flex-row md:flex-col py-15 z-50 bg-white">
       {partnershipsData.map((section, index) => {
         const isEven = index % 2 !== 0;
         return (
@@ -88,16 +88,16 @@ const PartnershipsAll = () => {
             </div>
 
             {/* Logos Grid */}
-            <div className="w-full  justify-center md:w-1/2 flex flex-row gap-5 mx-auto">
+            <div className="w-full  justify-center md:w-1/2 flex flex-row gap-5 mx-auto flex-wrap">
               {section.logos.map((logo, i) => (
                 <div
                   key={i}
-                  className="flex flex-col items-center justify-center min-w-40 p-2 rounded-lg shadow-xl bg-white"
+                  className="flex flex-col items-center justify-center min-w-40 p-2 rounded-lg shadow-xl bg-white overflow-hidden"
                 >
                   <img
                     src={logo.img}
                     alt={logo.name}
-                    className="w-25 h-18 object-contain"
+                    className="w-30 h-18 object-contain "
                   />
                   <p className="text-sm text-gray-700 manrope-regular mt-2">{logo.name}</p>
                 </div>
