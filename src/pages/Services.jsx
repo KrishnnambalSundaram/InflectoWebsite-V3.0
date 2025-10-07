@@ -68,7 +68,7 @@ const servicesData = [
     image: UIXConsulting,
   },
   {
-    heading: "Performance Tuning",
+    heading: "Performance Optimization",
     description:
       "We ensure your platforms run fast, scale effortlessly, and stay reliable.",
     points: [

@@ -38,7 +38,7 @@ const ContactUsEmail = () => {
     "AI Enablement",
     "App Developemnt and Support",
     "UI/UX Consulting and Revamp",
-    "Performance Tuning",
+    "Performance Optimization",
     "Business Automation"
   ];
   const isValidPhone = (phone) => {

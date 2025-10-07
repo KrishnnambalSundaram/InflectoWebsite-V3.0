@@ -2,7 +2,7 @@ import React from "react";
 import Appian from "../../assets/utility/companyLogos/appian.svg";
 import Backendless from "../../assets/utility/companyLogos/backendless.svg";
 import Bubble from "../../assets/utility/companyLogos/bubble.svg";
-import Hcl from "../../assets/utility/companyLogos/hcl.svg";
+import VoltMX from "../../assets/utility/companyLogos/hcl.svg";
 import Informatica from "../../assets/utility/companyLogos/informatica.svg";
 import Joget from "../../assets/utility/companyLogos/joget.svg";
 import Mendix from "../../assets/utility/companyLogos/mendix.svg";
@@ -19,9 +19,10 @@ const partnershipsData = [
     description:
       "Strategic and Technology partnerships at Inflecto fuel innovation — unlocking new opportunities, driving co-creation, and delivering faster, smarter, and scalable outcomes for our clients. \n We are committed to building trusted, future-ready alliances that:",
     logos: [,
-      { name: "Axxel Technologies", img: Axxel },
       { name: "Unifyapps", img: Unifyapps },
+      { name: "VoltMX", img: VoltMX },
       { name: "Zoho Creator", img: Zoho },
+      { name: "Axxel Technologies", img: Axxel },
     ],
     points:[
       {point:"Accelerate adoption of next-gen platforms"},

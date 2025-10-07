@@ -51,7 +51,7 @@ const services = [
   },
   {
     id: 4,
-    title: "Performance Turning",
+    title: "Performance Optimization",
     desc: "AI-powered testing and monitoring to ensure your systems stay fast, scalable, and reliable.",
     icon: performanceIconStatic,
     gif: performanceIcon,

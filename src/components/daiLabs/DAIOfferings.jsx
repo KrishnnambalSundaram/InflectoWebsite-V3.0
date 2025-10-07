@@ -12,31 +12,31 @@ import gsap from "gsap";
 const offerings = [
   {
     id: 1,
-    title: "Marketplace",
-    desc: "Domain Specific Solutions, Business Accelerators, B2C & Merchant Apps, LCNC Approach",
-    gif: digitalIcon,
-    icon: digitalIconStatic,
-  },
-  {
-    id: 2,
     title: "D&AI Consulting & Transformation",
     desc: "The Digital & AI consulting is designed to bridge business vision with scalable execution—delivered through a low-code-first, AI-native approach.",
     gif: aiIcon,
     icon: aiIconStatic,
   },
   {
-    id: 3,
+    id: 2,
     title: "GenAI & Agentic AI Professional Services",
     desc: "Bring innovation, enhance productivity, and create personalized digital experiences—securely and at scale.",
     gif: businessIcon,
     icon: businessIconStatic,
   },
   {
-    id: 4,
+    id: 3,
     title: "AI Academy",
     desc: "Upskill business & technology teams in AI, GenAI, and Intelligent Automation, empowering them to lead, adopt, and scale AI initiatives.",
     gif: academyIcon,
     icon: academyIconStatic,
+  },
+  {
+    id: 4,
+    title: "Marketplace",
+    desc: "Domain Specific Solutions, Business Accelerators, B2C & Merchant Apps, LCNC Approach",
+    gif: digitalIcon,
+    icon: digitalIconStatic,
   },
 ];
 
